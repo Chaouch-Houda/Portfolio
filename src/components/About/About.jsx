@@ -29,7 +29,7 @@ const About = () => {
         <motion.div className="font1" id='motivate' animate={animation3}>
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>About me</span>
-        <span>
+        <span style={{color : `${darkMode ? '' : 'var(--gray)'}`}}>
         Currently in my second year of a software engineering degree, I am a student with a passion for full-stack web development. Always on the lookout for new opportunities to enrich my professional journey, I am open to internships in this sector. Known for my punctuality and organization, I contribute to the smooth running of activities by demonstrating seriousness and commitment. With excellent interpersonal skills, I enjoy working in a team and always strive to create a positive and collaborative work environment. My goal is to apply my technical skills and personal qualities to innovative and challenging projects in the field of web development.
           <br />
         </span>
@@ -42,7 +42,7 @@ const About = () => {
           <br />
         </span> */}
         <a href={Resume} download style={{    marginTop: "4rem",width:"fit-content",height:"fit-content"}}>
-          <button className="button s-button">Download CV</button>
+          <button className="button s-button">Download Resume</button>
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>

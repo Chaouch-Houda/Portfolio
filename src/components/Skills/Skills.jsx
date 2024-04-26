@@ -12,7 +12,7 @@ const Skills =()=> {
   const skills = [
     {
       category: "Frameworks and Libraries",
-      list: ['React.js', 'Express.js', 'SpringBoot', 'Symphony', 'JavaFX','Ant Design']
+      list: ['React.js / redux / react query', 'Express.js', 'SpringBoot/ kafka/ reactive programming', 'Symfony', 'JavaFX','Ant Design']
     },
     {
       category: "CSS Libraries",
@@ -80,10 +80,9 @@ const Skills =()=> {
     slidesToScroll: 1,
   };
   return (
-  <div className="skills-container" >
+  <div className="skills-container"  id="skills">
     <div className='d-flex flex-column w-100 mb-4'>
-      <span style={{ color: darkMode ? "white" : "" }}> Skills and Tools</span>
-      <span>Tools used previously</span>
+      <span>Technologies I have used</span>
     </div>
     <Slider {...settings} className={`skills-slider ${darkMode ? 'skills-slider-dark' : ''}`}>
         {skills.map((skillGroup, index) => (

@@ -22,7 +22,7 @@ const Portfolio = () => {
   return (
     <div className="portfolio" id="portfolio">
       {/* heading */}
-      <span style={{ color: darkMode ? 'white' : '' }}>Social Life</span>
+      <span style={{ color: darkMode ? 'white' : '' }}>Social activities</span>
       <span>Memories</span>
 
       {/* slider */}

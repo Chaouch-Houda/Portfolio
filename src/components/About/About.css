@@ -38,8 +38,9 @@
   margin-top: 1rem;
 }
 .s-button {
-  width: 8rem;
+  width: fit-content !important;
   height: 2rem;
+  padding: 0px;
   margin-top: 0 !important;
 }
 /* right sided */

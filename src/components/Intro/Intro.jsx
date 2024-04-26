@@ -9,7 +9,7 @@ import crown from "../../img/crown.png";
 import FloatinDiv from "../FloatingDiv/FloatingDiv";
 import Github from "../../img/github1.png";
 import LinkedIn from "../../img/linkedin1.png";
-import Instagram from "../../img/instagram2.png";
+import gmail from "../../img/gmail.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
@@ -39,9 +39,9 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <a href="https://github.com/Chaouch-Houda" target="_blank"><img src={Github} alt="" /></a>
-          <img src={LinkedIn} alt="" />
-          <img src={Instagram} alt="" />
+          <a href="https://github.com/Chaouch-Houda" target="_blank" rel="noreferrer" ><img src={Github} alt="" /></a>
+          <a href="https://www.linkedin.com/in/houda-chaouch/"  target="_blank" rel="noreferrer"><img src={LinkedIn} alt="linkedin" /></a>
+          <a href="mailto:houdachaouch05@gmail.com"><img src={gmail} alt="gmail" height="80px"/></a>
         </div>
       </div>
       {/* right image side */}

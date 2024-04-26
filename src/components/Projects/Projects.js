@@ -33,22 +33,22 @@ export const Projects = () => {
     },
     {
       title: "University Management Application",
-      description: "Implementation of a university management system with React JS, Express JS, and MongoDB, developed collaboratively.",
+      description: "Implemented a university management system with React JS, Express JS, and MongoDB, developed collaboratively.",
       imgUrl: projImg2,
     },
     {
       title: "Library Management Application",
-      description: "A library management system developed collaboratively with a microservices architecture utilizing Spring Boot, Kafka, PostgreSQL, and reactive programming.",
+      description: "Developed a library management system collaboratively with a microservices architecture utilizing Spring Boot, Kafka, PostgreSQL, and reactive programming.",
       imgUrl: projImg3,
     },
     {
       title: "ecommerce-Chatbot",
-      description: "Effort to understand and adapt one of the ML algorithms using Python libraries such as Torch, nltk_utils, and numpy.",
+      description: "During my ML learning journey, I experimented with understanding and customizing an existing algorithm to suit the requirements of an e-commerce application developed in React js, MongoDB, and Express.js. I utilized libraries like Torch, nltk_utils, and numpy.",
       imgUrl: projImg4,
     },
     {
       title: "Gym Management Project",
-      description: " Created collaboratively with JavaFX and MySQL, this application was developed to manage gym operations.",
+      description: "Created collaboratively with JavaFX and MySQL, this application was developed to manage gym operations.",
       imgUrl: projImg5,
     },
     {
@@ -57,13 +57,13 @@ export const Projects = () => {
       imgUrl: projImg6,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "MYCAR",
+      description: "Designed with Figma, this application manages appointments within a car dealership.",
       imgUrl: projImg7,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "University Application",
+      description: "Collaboratively designed a university management application with Figma.",
       imgUrl: projImg8,
     },
     // {
@@ -72,13 +72,13 @@ export const Projects = () => {
     //   imgUrl: projImg9,
     // },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "University Application for Visually Impaired",
+      description: "Collaborated on the design of this application  to meet the needs of users with myopia or other visual problems",
       imgUrl: projImg10,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Company's Budget Allocation",
+      description: "Developed a simple app as part of a training program.",
       imgUrl: projImg11,
     },
   ];
@@ -92,7 +92,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p style={{color : `${darkMode ? '' : 'var(--gray)'}`}}>Here is a selection of projects I've developed during my university career and self-study, where I've acquired skills in various programming languages, frameworks and technological tools. In addition to my individual projects, I've also had the opportunity to collaborate on several projects, which has allowed me to strengthen my teamwork skills and adapt to different group dynamics.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first"  className={`${darkMode ? 'projects-tabs-dark' : ''}`}>
                   <Nav variant="pills" className={`nav-pills mb-5 justify-content-center align-items-center`} id="pills-tab">
                     <Nav.Item > 

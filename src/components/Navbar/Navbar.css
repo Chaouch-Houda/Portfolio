@@ -34,10 +34,17 @@
   margin-right: 4rem;
   text-wrap: nowrap;
 }
+/* .n-list > ul >li > a {
+  text-decoration: none;
+}
+.n-list > ul >li:hover .n-list > ul >li>a{
+  color: var(--orange) !important;
+  cursor: pointer !important;
+} */
 
 .n-list > ul :hover {
-  color: var(--orange);
-  cursor: pointer;
+  color: var(--orange) !important;
+  cursor: pointer !important;
 }
 
 .n-button {
