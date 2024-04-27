@@ -6,8 +6,8 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './Houda_chaouch_version_anglais.pdf';
-import Resume1 from './Houda_chaouch.pdf'
+import Resume from './Houda-Chaouch.pdf';
+import Resume1 from './Houda-Chaouch(1).pdf'
 import Download from "@iconscout/react-unicons/icons/uil-file-download";
 import CustomAnimation from '../../animation/CustomAnimation';
 
@@ -46,7 +46,7 @@ const About = () => {
         <a href={Resume} download style={{    marginTop: "4rem",width:"fit-content",height:"fit-content"}}>
           <button className="button s-button">English Resume <Download/></button>
         </a>
-        <a href={Resume} download style={{    marginTop: "4rem",width:"fit-content",height:"fit-content"}}>
+        <a href={Resume1} download style={{    marginTop: "4rem",width:"fit-content",height:"fit-content"}}>
           <button className="button s-button">French Resume <Download/> </button>
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
