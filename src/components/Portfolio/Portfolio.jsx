@@ -33,6 +33,24 @@ const Portfolio = () => {
         slidesPerView={3}
         grabCursor={true}
         className="portfolio-slider"
+        breakpoints={{
+          0: {
+            direction: "vertical",
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          480: {
+            direction: "vertical",
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+          768: {
+            direction: "horizontal",
+            slidesPerView: 3,
+            spaceBetween: 30,
+          }
+        }}
+
       >
         {images.map((i, id) => (
           <SwiperSlide key={id} style={{width:'19rem'}}>

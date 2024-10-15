@@ -21,20 +21,23 @@
 
 /* slider */
 .portfolio .swiper{
-    overflow: visible!important;
-    max-height: 280px;
+    /* overflow: visible !important; */
+    height: fit-content;
+    /* height: 300px; */
 }
 
 .portfolio-slider {
   margin-top: 3rem;
+  height: fit-content;
   width: 100%;
 }
 
 .portfolio-slider .swiper-slide {
-  width: 20rem;
+  width:100%;
+  max-width: 17rem;
 }
 .portfolio img {
-  width: 19rem !important;
+  width: 16rem !important;
   filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
   border-radius: 19px;
 }

@@ -42,7 +42,7 @@ export const Projects = () => {
       imgUrl: projImg3,
     },
     {
-      title: "ecommerce-Chatbot",
+      title: "Ecommerce-Chatbot",
       description: "During my ML learning journey, I experimented with understanding and customizing an existing algorithm to suit the requirements of an e-commerce application developed in React js, MongoDB, and Express.js. I utilized libraries like Torch, nltk_utils, and numpy.",
       imgUrl: projImg4,
     },
@@ -52,8 +52,8 @@ export const Projects = () => {
       imgUrl: projImg5,
     },
     {
-      title: "Company's Budget Allocation",
-      description: "Developed a simple app as part of a training program.",
+      title: "DevLinks",
+      description: " Created a simple app that allows users to create a card containing all their social media account links, making it easy to share.",
       imgUrl: projImg6,
     },
     {

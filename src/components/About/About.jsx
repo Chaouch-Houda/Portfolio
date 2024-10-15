@@ -7,7 +7,7 @@ import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import Resume from './Houda-Chaouch.pdf';
-import Resume1 from './Houda-ChaouchFR.pdf'
+import Resume1 from './Houda Chaouch.pdf'
 import Download from "@iconscout/react-unicons/icons/uil-file-download";
 import CustomAnimation from '../../animation/CustomAnimation';
 

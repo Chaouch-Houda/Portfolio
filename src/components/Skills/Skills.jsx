@@ -11,36 +11,52 @@ const Skills =()=> {
 
   const skills = [
     {
-      category: "Frameworks and Libraries",
-      list: ['React.js / redux / react query', 'Express.js', 'SpringBoot/ kafka/ reactive programming', 'Symfony', 'JavaFX','Ant Design']
+      category: "Frontend",
+      list: ['HTML / CSS / JavaScript','React.js (Redux, Redux Toolkit, React Query)', 'Ant Design', 'Tailwind CSS / Bootstrap','React Native']
     },
     {
-      category: "CSS Libraries",
-      list: ['Tailwind CSS', 'Bootstrap']
+      category: "Backend",
+      list: ['Node.js / Express.js', 'SpringBoot/ kafka / reactive programming','PHP / Symfony']
     },
     {
       category: "Databases",
-      list: ['MYSQL', 'ORACLE', 'MongoDB']
+      list: ['MYSQL', 'ORACLE', 'MongoDB','PostgreSQL']
     },
     {
-      category: "Design Tools",
-      list: ['Figma', 'Framer']
+      category: "UML Modeling and Diagramming",
+      list: ['Astah','StarUML']
     },
     {
-      category: "Project Management Tools",
-      list: ['Git/GitHub', 'Trello']
+      category: "Design and Prototyping",
+      list: ['Figma', 'Framer','Canva']
+    },
+    {
+      category: "Version Control & Documentation",
+      list: ['Git / GitHub','Postman','Swagger']
+    },
+    {
+      category: "Project Management",
+      list: ['Jira', 'Trello']
+    },
+    {
+      category: "DevOps and Containerization",
+      list: ['Docker']
+    },
+    {
+      category: "Data Science and Machine Learning",
+      list: ['Python','Jupyter','Google Colab']
     },
     {
       category: "Programming Languages",
-      list: ['Java', 'Python', 'C', 'C++']
+      list: ['Java / javaFX', 'Python', 'C', 'C++']
+    },
+    {
+      category: "Development Tools",
+      list: ['VSCode','IntelliJ','Android Studio']
     },
     {
       category: "Networking Tools",
       list: ['Cisco Packet Tracer']
-    },
-    {
-      category: "Software Development Tools",
-      list: ['Matlab']
     },
     {
       category: "Operating Systems",
@@ -50,14 +66,8 @@ const Skills =()=> {
       category: "Data Integration Tools",
       list: ['Talend']
     },
-    {
-      category: "",
-      list: []
-    },
-    {
-      category: "",
-      list: []
-    }
+    
+    
   ];
 
   const settings = {
