@@ -23,19 +23,26 @@ const Intro = () => {
   const darkMode = theme.state.darkMode;
 
   return (
-    <div className="Intro" id="Intro">
+    <div className={`Intro ${darkMode ? "dark" : ""}`} id="Intro">
       {/* left name side */}
       <div className="i-left">
         <div className="i-name">
-          {/* yahan change hy darkmode ka */}
-          <span style={{ color: darkMode ? "white" : "" }}>Welcome to my Portfolio</span>
+          <span className="intro-title">Welcome to my Portfolio</span>
           <span>Houda Chaouch</span>
+          {/* <span>
+            Software Engineer and Full Stack Developer (MERN & React Native). 
+            I design and develop performant, scalable, and user-focused web and mobile applications, 
+            with a strong emphasis on clean code, best practices, and user experience.
+          </span> */}
           <span>
-          I am a passionate student in a software engineering program, specialized as a full-stack developer to create innovative and efficient software solutions
+          Software Engineer and Full Stack Developer (MERN & React Native).  
+          I build performant, scalable, and user-centered web & mobile applications with clean code and best practices.
           </span>
+
         </div>
         <Link to="contact" smooth={true} spy={true}>
-          <button className="button i-button">Hire me</button>
+          <button className="button i-button" aria-label="Hire me">HIRE ME</button>
+
         </Link>
         {/* social icons */}
         <div className="i-icons">
@@ -64,7 +71,7 @@ const Intro = () => {
           transition={transition}
           className="floating-div"
         >
-          <FloatinDiv img={crown} text1="Web" text2="Developer" />
+           <FloatinDiv img={crown} text1="Full Stack" text2="Developer" />
         </motion.div>
 
         {/* animation */}
@@ -75,7 +82,7 @@ const Intro = () => {
           className="floating-div"
         >
           {/* floatinDiv mein change hy dark mode ka */}
-          <FloatinDiv img={thumbup} text1="Best Design" text2="Award" />
+          <FloatinDiv img={thumbup} text1="React Native" text2="Mobile Apps" />
         </motion.div>
 
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
