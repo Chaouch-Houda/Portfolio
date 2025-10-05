@@ -1,18 +1,18 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../../img/projets/projetStage.png";
-import projImg2 from "../../img/projets/universityWeb.png";
-import projImg3 from "../../img/projets/springboot.png";
-import projImg4 from "../../img/projets/chatbot.png";
-import projImg5 from "../../img/projets/gym.png";
-import projImg6 from "../../img/projets/rbkChallenge.png";
-import projImg7 from "../../img/projets/myCar.png";
-import projImg8 from "../../img/projets/universityStudent.png";
-// import projImg9 from "../../img/projets/image.png";
-import projImg10 from "../../img/projets/universityMobile.png";
-import projImg11 from "../../img/projets/budgetApp.png";
+import projImg1 from "../../assets/images/projets/projetStage.png";
+import projImg2 from "../../assets/images/projets/universityWeb.png";
+import projImg3 from "../../assets/images/projets/springboot.png";
+import projImg4 from "../../assets/images/projets/chatbot.png";
+import projImg5 from "../../assets/images/projets/gym.png";
+import projImg6 from "../../assets/images/projets/rbkChallenge.png";
+import projImg7 from "../../assets/images/projets/myCar.png";
+import projImg8 from "../../assets/images/projets/universityStudent.png";
+// import projImg9 from "../../assets/images/projets/image.png";
+import projImg10 from "../../assets/images/projets/universityMobile.png";
+import projImg11 from "../../assets/images/projets/budgetApp.png";
 
-import colorSharp2 from "../../img/color-sharp2.png"
+import colorSharp2 from "../../assets/images/color-sharp2.png"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import { themeContext } from "../../Context";

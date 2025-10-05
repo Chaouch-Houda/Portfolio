@@ -1,13 +1,13 @@
 import React, { useContext } from "react";
 import "./About.css";
 import Card from "../Card/Card";
-import HeartEmoji from "../../img/heartemoji.png";
-import Glasses from "../../img/glasses.png";
-import Humble from "../../img/humble.png";
+import HeartEmoji from "../../assets/images/heartemoji.png";
+import Glasses from "../../assets/images/glasses.png";
+import Humble from "../../assets/images/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './Houda-Chaouch.pdf';
-import Resume1 from './Houda Chaouch.pdf'
+import ResumeEN from '../../assets/files/Houda-Chaouch-EN.pdf';
+import ResumeFR from '../../assets/files/Houda-Chaouch-FR.pdf';
 import Download from "@iconscout/react-unicons/icons/uil-file-download";
 import CustomAnimation from '../../animation/CustomAnimation';
 
@@ -31,22 +31,18 @@ const About = () => {
         <motion.div className="font1" id='motivate' animate={animation3}>
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>About me</span>
-        <span style={{color : `${darkMode ? '' : 'var(--gray)'}`}}>
-        Currently in my second year of a software engineering degree, I am a student with a passion for full-stack web development. Always on the lookout for new opportunities to enrich my professional journey, I am open to internships in this sector. Known for my punctuality and organization, I contribute to the smooth running of activities by demonstrating seriousness and commitment. With excellent interpersonal skills, I enjoy working in a team and always strive to create a positive and collaborative work environment. My goal is to apply my technical skills and personal qualities to innovative and challenging projects in the field of web development.
-          <br />
+        <span style={{color : `${darkMode ? 'rgba(255,255,255,0.6)' : 'var(--gray)'}`}}>
+          I am a recent Software Engineering graduate and a passionate Full Stack Developer (MERN & React Native).
+          With hands-on experience gained through internships and personal projects, I design and develop performant, scalable, and user-friendly web and mobile applications.
+          I focus on clean code, best practices, and creating an excellent user experience.
+          Known for my punctuality, organization, and teamwork skills, I thrive in collaborative environments and take initiative to contribute effectively.
+          I am eager to apply my technical skills and personal qualities to innovative and challenging projects in web and mobile development          <br />
         </span>
         </motion.div>
-        {/* dark mode */}
-        {/* <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
-        <span>About me</span>
-        <span>
-        Currently in my second year of a software engineering degree, I am a student with a passion for full-stack web development. Always on the lookout for new opportunities to enrich my professional journey, I am open to internships in this sector. Known for my punctuality and organization, I contribute to the smooth running of activities by demonstrating seriousness and commitment. With excellent interpersonal skills, I enjoy working in a team and always strive to create a positive and collaborative work environment. My goal is to apply my technical skills and personal qualities to innovative and challenging projects in the field of web development.
-          <br />
-        </span> */}
-        <a href={Resume} download style={{    marginTop: "4rem",width:"fit-content",height:"fit-content"}}>
+        <a href={ResumeEN} download="Houda-Chaouch-Resume-EN.pdf" style={{    marginTop: "4rem",width:"fit-content",height:"fit-content"}}>
           <button className="button s-button">English Resume <Download/></button>
         </a>
-        <a href={Resume1} download style={{    marginTop: "4rem",width:"fit-content",height:"fit-content"}}>
+        <a href={ResumeFR} download="Houda-Chaouch-Resume-FR.pdf" style={{    marginTop: "4rem",width:"fit-content",height:"fit-content"}}>
           <button className="button s-button">French Resume <Download/> </button>
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
@@ -74,7 +70,7 @@ const About = () => {
           <Card
             emoji={HeartEmoji}
             heading={"Soft Skills"}
-            detail={"Teamwork, Stress Management, Critical Thinking, Problem Solving"}
+            detail={"Teamwork, Communication, Critical Thinking, Problem Solving, Organization"}
           />
         </motion.div>
         {/* 3rd */}
@@ -87,7 +83,7 @@ const About = () => {
             emoji={Humble}
             heading={"Developer"}
             detail={
-             "React js, Nodejs, Express, MongoDB, MYSQL, postgreSQL, Bootstrap, Tailwind "
+             "React js, React Native, Nodejs, Express, MongoDB, MYSQL, postgreSQL, Bootstrap, Tailwind "
             }
             color="rgba(252, 166, 31, 0.45)"
           />

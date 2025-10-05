@@ -1,9 +1,9 @@
 import React from "react";
 import "./Footer.css";
-import Wave from "../../img/wave1.png";
+import Wave from "../../assets/images/wave1.png";
 import Linkedin from "@iconscout/react-unicons/icons/uil-linkedin";
 import Github from "@iconscout/react-unicons/icons/uil-github";
-import gmail from "../../img/gmail2.png"
+import gmail from "../../assets/images/gmail2.png"
 
 const Footer = () => {
   return (

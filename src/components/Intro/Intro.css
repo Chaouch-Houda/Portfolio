@@ -11,6 +11,9 @@
 .Intro.dark .intro-title {
   color: white;
 }
+.Intro.dark .profile {
+  color: rgba(255,255,255,0.6);
+}
 .i-left {
   display: flex;
   position: relative;

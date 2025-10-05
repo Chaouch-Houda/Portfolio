@@ -4,17 +4,17 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { themeContext } from "../../Context";
 
-import i1 from "../../img/myPhotos/i1.jpg";
-import i2 from "../../img/myPhotos/i2.jpg";
-import i3 from "../../img/myPhotos/i3.jpg";
-import i4 from "../../img/myPhotos/i4.jpg";
-import i5 from "../../img/myPhotos/i5.jpg";
-import i6 from "../../img/myPhotos/i6.jpg";
-import i7 from "../../img/myPhotos/i7.jpg";
-import i8 from "../../img/myPhotos/i8.jpg";
-import i9 from "../../img/myPhotos/i9.jpg";
-import i10 from "../../img/myPhotos/i10.jpg";
-import i11 from "../../img/myPhotos/i11.jpg";
+import i1 from "../../assets/images/myPhotos/i1.jpg";
+import i2 from "../../assets/images/myPhotos/i2.jpg";
+import i3 from "../../assets/images/myPhotos/i3.jpg";
+import i4 from "../../assets/images/myPhotos/i4.jpg";
+import i5 from "../../assets/images/myPhotos/i5.jpg";
+import i6 from "../../assets/images/myPhotos/i6.jpg";
+import i7 from "../../assets/images/myPhotos/i7.jpg";
+import i8 from "../../assets/images/myPhotos/i8.jpg";
+import i9 from "../../assets/images/myPhotos/i9.jpg";
+import i10 from "../../assets/images/myPhotos/i10.jpg";
+import i11 from "../../assets/images/myPhotos/i11.jpg";
 
 const Portfolio = () => {
   const theme = useContext(themeContext);

@@ -1,15 +1,15 @@
 import React, { useContext } from "react";
 import "./Intro.css";
-import Vector1 from "../../img/Vector111.png";
-import Vector2 from "../../img/vector22.png";
-import i1 from "../../img/myPhotos/i1-removebg.png";
-import glassesimoji from "../../img/glassesimoji.png";
-import thumbup from "../../img/thumbup.png";
-import crown from "../../img/crown.png";
+import Vector1 from "../../assets/images/Vector111.png";
+import Vector2 from "../../assets/images/vector22.png";
+import i1 from "../../assets/images/myPhotos/i1-removebg.png";
+import glassesimoji from "../../assets/images/glassesimoji.png";
+import thumbup from "../../assets/images/thumbup.png";
+import crown from "../../assets/images/crown.png";
 import FloatinDiv from "../FloatingDiv/FloatingDiv";
-import Github from "../../img/github1.png";
-import LinkedIn from "../../img/linkedin1.png";
-import gmail from "../../img/gmail.png";
+import Github from "../../assets/images/github1.png";
+import LinkedIn from "../../assets/images/linkedin1.png";
+import gmail from "../../assets/images/gmail.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
@@ -34,7 +34,7 @@ const Intro = () => {
             I design and develop performant, scalable, and user-focused web and mobile applications, 
             with a strong emphasis on clean code, best practices, and user experience.
           </span> */}
-          <span>
+          <span className="profile">
           Software Engineer and Full Stack Developer (MERN & React Native).  
           I build performant, scalable, and user-centered web & mobile applications with clean code and best practices.
           </span>

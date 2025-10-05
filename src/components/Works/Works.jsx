@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
 import "./Works.css";
-import Upwork from "../../img/Upwork.png";
-import Fiverr from "../../img/fiverr.png";
-import Amazon from "../../img/amazon.png";
-import Shopify from "../../img/Shopify.png";
-import Facebook from "../../img/Facebook.png";
+import Upwork from "../../assets/images/Upwork.png";
+import Fiverr from "../../assets/images/fiverr.png";
+import Amazon from "../../assets/images/amazon.png";
+import Shopify from "../../assets/images/Shopify.png";
+import Facebook from "../../assets/images/Facebook.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import {Link} from 'react-scroll'
