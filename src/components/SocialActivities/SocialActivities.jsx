@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import "./Portfolio.css";
+import "./SocialActivities.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { themeContext } from "../../Context";
@@ -16,15 +16,15 @@ import i9 from "../../assets/images/myPhotos/i9.jpg";
 import i10 from "../../assets/images/myPhotos/i10.jpg";
 import i11 from "../../assets/images/myPhotos/i11.jpg";
 
-const Portfolio = () => {
+const SocialActivities = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   const images = [ i4, i7, i8,i10,i1,i6, i9, i2, i3,i5,i11  ];
 
   return (
-    <div className="portfolio" id="portfolio">
+    <div className="social-container" id="social-container">
       {/* heading */}
-      <span style={{ color: darkMode ? 'white' : '' }}>Social activities</span>
+      <h2 style={{ color: darkMode ? 'white' : '' }}>Social activities</h2>
       <span>Memories</span>
 
       {/* slider */}
@@ -32,7 +32,7 @@ const Portfolio = () => {
         spaceBetween={30}
         slidesPerView={3}
         grabCursor={true}
-        className="portfolio-slider"
+        className="social-activities-slider"
         breakpoints={{
           0: {
             direction: "vertical",
@@ -62,4 +62,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default SocialActivities;

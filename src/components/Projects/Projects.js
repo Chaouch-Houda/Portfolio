@@ -12,6 +12,7 @@ import projImg8 from "../../assets/images/projets/universityStudent.png";
 import projImg10 from "../../assets/images/projets/universityMobile.png";
 import projImg11 from "../../assets/images/projets/budgetApp.png";
 
+import "./Projects.css";
 import colorSharp2 from "../../assets/images/color-sharp2.png"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';

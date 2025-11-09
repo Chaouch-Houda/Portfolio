@@ -1,4 +1,4 @@
-.portfolio {
+.social-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -6,37 +6,38 @@
   height: 70vh;
 
 }
+
 /* heading */
-.portfolio span:nth-of-type(1) {
-  color: var(--black);
-  font-size: 2.5rem;
-  font-weight: bold;
+.social-container h2 {
+	font-size: 45px;
+	font-weight: 700;
+  text-align: center;
 }
 
-.portfolio span:nth-of-type(2) {
+.social-container span:nth-of-type(1) {
   color: var(--orange);
   font-size: 2rem;
   font-weight: bold;
 }
 
 /* slider */
-.portfolio .swiper{
+.social-container .swiper{
     /* overflow: visible !important; */
     height: fit-content;
     /* height: 300px; */
 }
 
-.portfolio-slider {
+.social-activities-slider {
   margin-top: 3rem;
   height: fit-content;
   width: 100%;
 }
 
-.portfolio-slider .swiper-slide {
+.social-activities-slider .swiper-slide {
   width:100%;
   max-width: 17rem;
 }
-.portfolio img {
+.social-container img {
   width: 16rem !important;
   filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
   border-radius: 19px;

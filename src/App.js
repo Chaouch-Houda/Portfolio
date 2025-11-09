@@ -2,10 +2,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Intro from "./components/Intro/Intro";
 import About from "./components/About/About";
 import "./App.css";
-import Experience from "./components/Experience/Experience";
-import Works from "./components/Works/Works";
-import Portfolio from "./components/Portfolio/Portfolio";
-import Testimonial from "./components/Testimonials/Testimonial";
+import SocialActivities from "./components/SocialActivities/SocialActivities";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import { useContext } from "react";
@@ -28,11 +25,8 @@ function App() {
       <Intro />
       <About />
       <Skills/>
-      {/* <Experience /> */}
-      {/* <Works /> */}
       <Projects/>
-      <Portfolio />
-      {/* <Testimonial /> */}
+      <SocialActivities />
       <Contact />
       <Footer />
     </div>
