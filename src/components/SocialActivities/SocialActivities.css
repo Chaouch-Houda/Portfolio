@@ -15,7 +15,7 @@
 }
 
 .social-container span:nth-of-type(1) {
-  color: var(--orange);
+  color: var(--light-accent);
   font-size: 2rem;
   font-weight: bold;
 }
