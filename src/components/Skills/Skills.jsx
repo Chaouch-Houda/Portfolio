@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react';
-import { Code, Smartphone, Server, Database, Palette, Wrench, GraduationCap } from 'lucide-react';
+import { Code, Server, Database, Palette, Wrench, GraduationCap } from 'lucide-react';
 import './Skills.css';
 import { themeContext } from '../../Context'; 
 

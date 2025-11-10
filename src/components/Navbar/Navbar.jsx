@@ -9,7 +9,7 @@ const navbar = () => {
       {/* left */}
       <div className="n-left">
         <div className="n-name">
-          <img src={logo} height={50}/>
+          <img src={logo} alt="logo" height={50}/>
         </div>
         <Toggle />
       </div>
